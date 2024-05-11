@@ -1,0 +1,137 @@
+body {
+
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.container {
+
+    position: relative;
+    width: 700px;
+    height: 700px;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px ;
+}
+
+
+
+.quadra1 {
+
+    width: 100px;
+    height: 150px;
+    background-color: red;
+    border: 1px solid black;
+    display: flex;
+    padding-left: 700px;
+    margin-left: 380px;
+    border-bottom-left-radius: 25%;
+    /* border-top-left-radius: 80%; */
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 25%;
+    position: static;
+    
+}
+
+.quadra2 {
+
+    width: 50px;
+    height: 100px;
+    padding-top: 10px;
+    margin-left: 380px;
+    background-color: red;
+    margin-top: -50px;
+    transform: rotate(145deg);
+    position: absolute;
+}
+
+
+.triang3 {
+
+    width: 0; 
+    height: 0; 
+    border-right: 100px solid transparent;
+    border-top: 100px solid red;
+    margin-left: 338px;
+    border-radius: 20px;
+    border-bottom-left-radius: 100px;
+    transform: rotate(30deg);
+    margin-top: -85px;
+    position: absolute;
+}
+
+.quadra5 {
+
+    width: 50px;
+    height: 15px;
+    background-color: black;
+    border: 1px solid black;
+    position: absolute;
+    transform: rotate(0deg);
+    border-radius: 0% 89% 0% 97% / 20% 94% 2% 79% ;
+    margin-left: 1100px;
+    margin-top: 90px;
+}
+
+.quadra6 {
+
+    width: 50px;
+    height: 15px;
+    background-color: black;
+    border: 1px solid black;
+    position: absolute;
+    transform: rotate(0deg);
+    margin-left: 380px;
+    margin-top: 40px;
+}
+
+.esfera3 {
+
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 475px;
+    margin-top: -100px;
+    position: static;
+}   
+
+.esfer2 {
+
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    background-color: black;
+    border-radius: 50% ;
+    margin-left: 980px ;
+    margin-top: -85px;
+    position: static;
+}
+
+.botão-voltar{
+    width: 100px;
+    height: 30  px;
+    padding: 5px 10px;
+    border-radius: 20%;
+    border: rgb(240, 172, 46) solid 2px;
+    background: rgb(232, 198, 96);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: rgb(105, 80, 34) 2px 2px 0;
+    position: fixed;
+    left: 5%;
+    bottom: 5%;
+    transition: 100ms ease-in;
+}
+
+.botão-voltar:hover{
+    transform: scale(1.2);
+    box-shadow: 6px 6px 10px black;
+}

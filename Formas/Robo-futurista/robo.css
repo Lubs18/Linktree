@@ -1,0 +1,270 @@
+*{
+    margin: 0; 
+    padding: 0%;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: inherit; /*Adicionar para que o símbolo whathsapp, insta possam herdar a cor de li (pai)*/
+}
+
+.container {
+
+    width: 1500px;
+    height: 700px;
+    border: solid white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover; /*proporciona flexibilidade a figura com relação ao zoom*/
+}
+
+.quadradocorpo{
+
+    display: flex;
+    width: 350px;
+    height: 400px;
+    border: solid black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /*funciona para posicionar de maneira centralizada com relação ao centro da figura e não sua ponta*/
+    border-radius: 49% 51% 46% 54% / 73% 72% 28% 27% ;
+    background-color: white;
+    z-index: 4;
+    
+    
+}
+
+.cabeça {
+
+    width: 150px;
+    height: 120px;
+    border: solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 18%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    z-index: 5;
+    
+}
+
+.braçoe{
+
+    width: 120px;
+    height: 350px;
+    border: solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 37%;
+    top: 23%;
+    transform: translate(-50%, -50%);
+    transform: rotate(25deg);
+    background-color: white;
+    z-index: 3;
+    
+
+}
+
+.braçod {
+
+    width: 120px;
+    height: 350px;
+    border: solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 55%;
+    top: 23%;
+    transform: translate(-50%, -50%);
+    transform: rotate(-25deg);
+    background-color: white;
+    z-index: 3;
+    
+
+}
+
+.pernae {
+
+    width: 120px;
+    height: 300px;
+    border: solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 42%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    transform: rotate(8deg);
+   
+}
+
+.pernad {
+
+    width: 120px;
+    height: 300px;
+    border: solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    transform: rotate(-8deg);
+    
+}
+
+.olhoe {
+
+    width: 20px;
+    height: 20px;
+    border: solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 47%;
+    top: 17%;
+    z-index: 5;
+    background-color: black;
+    
+}
+
+.olhod {
+
+    width: 20px;
+    height: 20px;
+    border: solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 51%;
+    top: 17%;
+    z-index: 5;
+    background-color: black;
+   
+}
+.boca {
+
+    border-bottom: solid black;
+    width: 50px;
+    position: absolute;
+    left: 48%;
+    top: 18%;
+    z-index: 5;
+}
+
+.dedo {
+
+    width: 30px;
+    height: 50px;
+    border: solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 38%;
+    top: 67%;
+    transform: rotate(-15deg);
+  
+    /* z-index: 6; */
+
+}
+
+.dedo2 {
+
+    width: 30px;
+    height: 50px;
+    border: solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 35%;
+    top: 67%;
+    transform: rotate(30deg);
+    
+    /* z-index: 6; */
+
+}
+
+.dedo3 {
+
+    width: 30px;
+    height: 50px;
+    border: solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 35%;
+    top: 63%;
+    transform: rotate(45deg);
+    
+    /* z-index: 6; */
+
+}
+
+.dedo4 {
+
+    width: 30px;
+    height: 50px;
+    border: solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 60%;
+    top: 67%;
+    transform: rotate(15deg);
+   
+    /* z-index: 6; */
+
+}
+
+.dedo5 {
+
+    width: 30px;
+    height: 50px;
+    border: solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 63%;
+    top: 67%;
+    transform: rotate(-30deg);
+   
+    /* z-index: 6; */
+
+}
+
+.dedo6 {
+
+    width: 30px;
+    height: 50px;
+    border: solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 63%;
+    top: 62%;
+    transform: rotate(-45deg);
+   
+    /* z-index: 6; */
+
+}
+
+.botão-voltar{
+    width: 100px;
+    height: 30  px;
+    padding: 5px 10px;
+    border-radius: 20%;
+    border: rgb(240, 172, 46) solid 2px;
+    background: rgb(232, 198, 96);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: rgb(105, 80, 34) 2px 2px 0;
+    position: fixed;
+    left: 5%;
+    bottom: 5%;
+    transition: 100ms ease-in;
+}
+
+.botão-voltar:hover{
+    transform: scale(1.2);
+    box-shadow: 6px 6px 10px black;
+}

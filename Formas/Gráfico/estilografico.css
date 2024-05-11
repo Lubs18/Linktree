@@ -1,0 +1,285 @@
+*{
+    margin: 0; 
+    padding: 0%;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: inherit; /*Adicionar para que o símbolo whathsapp, insta possam herdar a cor de li (pai)*/
+}
+
+.container {
+
+    width: 100%;
+    height: 100%;
+    border: solid rgb(236, 236, 236);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover; /*proporciona flexibilidade a figura com relação ao zoom*/
+}
+
+.eixoy {
+
+    height: 580px;
+    border: solid black;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.eixox {
+
+    width: 800px;
+    border: solid black;
+    position: absolute;
+    left: 781px;
+    top: 92%;
+    transform: translate(-50%, -50%);
+    /* transform: rotate(90deg); */
+}
+
+.linhafundo1 {
+
+    width: 800px;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    position: absolute;
+    left: 781px;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    border-style: dashed;
+    /* transform: rotate(90deg); */
+}
+
+.linhafundo2 {
+
+    width: 800px;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    position: absolute;
+    left: 781px;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    border-style: dashed;
+    /* transform: rotate(90deg); */
+}
+
+.linhafundo3 {
+
+    width: 800px;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    position: absolute;
+    left: 781px;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    border-style: dashed;
+    /* transform: rotate(90deg); */
+}
+
+.linhafundo4 {
+
+    width: 800px;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    position: absolute;
+    left: 781px;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    border-style: dashed;
+    /* transform: rotate(90deg); */
+}
+
+.linhafundo5 {
+
+    width: 800px;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    position: absolute;
+    left: 781px;
+    top: 83%;
+    transform: translate(-50%, -50%);
+    border-style: dashed;
+    /* transform: rotate(90deg); */
+}
+
+.barra1 {
+
+    width: 100px;
+    height: 297px;
+    border: solid aqua;
+    background-color: aqua;
+    position: absolute;
+    left: 30%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.barra2 {
+
+    width: 100px;
+    height: 397px;
+    border: solid aqua;
+    background-color: aqua;
+    position: absolute;
+    left: 40%;
+    top: 63%;
+    transform: translate(-50%, -50%);
+}
+
+.barra3 {
+
+    width: 100px;
+    height: 495px;
+    border: solid aqua;
+    background-color: aqua;
+    position: absolute;
+    left: 50%;
+    top: 56%;
+    transform: translate(-50%, -50%);
+}
+
+.barra4 {
+
+    width: 100px;
+    height: 225px;
+    border: solid aqua;
+    background-color: aqua;
+    position: absolute;
+    left: 60%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.barra5 {
+
+    width: 100px;
+    height: 425px;
+    border: solid aqua;
+    background-color: aqua;
+    position: absolute;
+    left: 70%;
+    top: 61%;
+    transform: translate(-50%, -50%);
+}
+
+.mesj {
+
+    position: absolute;
+    left: 30%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+
+}
+
+.mesf {
+
+    position: absolute;
+    left: 40%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+
+}
+
+.mesm {
+
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+
+}
+
+.mesa {
+
+    position: absolute;
+    left: 60%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+
+}
+
+.mesio {
+
+    position: absolute;
+    left: 70%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+
+}
+
+.valor1  {
+
+    position: absolute;
+    left: 23%;
+    top: 83%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.valor2  {
+
+    position: absolute;
+    left: 23%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.valor3  {
+
+    position: absolute;
+    left: 23%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.valor4  {
+
+    position: absolute;
+    left: 23%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.valor5  {
+
+    position: absolute;
+    left: 23%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.botão-voltar{
+    width: 100px;
+    height: 30  px;
+    padding: 5px 10px;
+    border-radius: 20%;
+    border: rgb(240, 172, 46) solid 2px;
+    background: rgb(232, 198, 96);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: rgb(105, 80, 34) 2px 2px 0;
+    position: fixed;
+    left: 5%;
+    bottom: 5%;
+    transition: 100ms ease-in;
+}
+
+.botão-voltar:hover{
+    transform: scale(1.2);
+    box-shadow: 6px 6px 10px black;
+}

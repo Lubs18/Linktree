@@ -1,0 +1,23 @@
+.botão-voltar{
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 20%;
+    border: rgb(240, 172, 46) solid 2px;
+    background: rgb(0, 28, 153);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: rgb(105, 80, 34) 2px 2px 0;
+    position: fixed;
+    left: 5%;
+    bottom: 5%;
+    transition: 100ms ease-in;
+}
+
+.botão-voltar:hover{
+    transform: scale(1.2);
+    box-shadow: 6px 6px 10px black;
+}

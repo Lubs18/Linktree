@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    position: absolute;
+}
+
+#quadrado {
+
+   width: 100%;
+    height: 100px;
+    position: absolute;
+    border: solid black;
+    background-color: black;
+}
+
+#quadrado2 {
+
+    width: 100%;
+    height: 69%;
+    background-color: rgba(77, 196, 176, 0.795);
+    position: absolute;
+    top: 10%;
+}
+
+#quadrado3 {
+
+    width: 500px;
+    height: 500px;
+    border: solid black;
+    background-color: rgb(250, 118, 118);
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    border-radius: 50px;
+    box-shadow: 0.1em 0.1em 3em ;
+}
+
+#quadrado4 {
+
+    width: 500px;
+    height: 500px;
+    border: solid black;
+    background-color: rgb(243, 223, 111);
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    border-radius: 50px;
+    box-shadow: 0.1em 0.1em 3em ;
+}
+
+#quadrado5 {
+
+    width: 500px;
+    height: 500px;
+    border: solid black;
+    background-color: rgb(113, 224, 243);
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    border-radius: 50px;
+    box-shadow: 0.1em 0.1em 3em ;
+}
+
+#quadrado6 {
+
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 79%;
+    background-color: rgba(137, 43, 226, 0.63);
+   
+}
+
+#quadrado7 {
+
+    width: 100%;
+     height: 100px;
+     position: absolute;
+     border: solid black;
+     background-color: black;
+     top: 132%;
+ }
+
+ .botão-voltar{
+    width: 100px;
+    height: 30  px;
+    padding: 5px 10px;
+    border-radius: 20%;
+    border: rgb(240, 172, 46) solid 2px;
+    background: rgb(232, 198, 96);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: rgb(105, 80, 34) 2px 2px 0;
+    position: fixed;
+    left: 5%;
+    bottom: 5%;
+    transition: 100ms ease-in;
+}
+
+.botão-voltar:hover{
+    transform: scale(1.2);
+    box-shadow: 6px 6px 10px black;
+}
+
+

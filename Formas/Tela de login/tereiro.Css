@@ -1,0 +1,61 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border-bottom: 15px;
+    text-align: center;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 4px solid black; 
+
+} 
+
+.Letras{
+
+    border: 2px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 450px;
+    background-color: rgb(195, 130, 44);
+    border-radius: 20px;
+    margin-bottom: 50px;
+    color: white;
+    /* height: 350px; */
+    
+}
+
+#btn{
+
+    background-color: black;
+    color: white;
+    margin-left: 120px;
+}
+
+.a{
+
+    padding-left: 70px;
+    padding-top: 15px;
+    
+    }
+
+.b{
+
+    padding-left: 50px;
+    padding-top: 15px;
+
+}
+
+.c{
+
+   display: flex;
+   padding-left: 37px;
+   padding-top: 15px;
+}
+
+input,textarea,select{
+    width: 200px;
+}
